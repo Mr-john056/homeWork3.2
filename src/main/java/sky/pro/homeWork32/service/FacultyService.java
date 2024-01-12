@@ -1,5 +1,6 @@
 package sky.pro.homeWork32.service;
 
+import org.springframework.stereotype.Service;
 import sky.pro.homeWork32.entities.Faculty;
 
 public interface FacultyService {

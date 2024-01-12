@@ -1,7 +1,9 @@
 package sky.pro.homeWork32.service;
 
+import org.springframework.stereotype.Service;
 import sky.pro.homeWork32.entities.Student;
 
+@Service
 public interface StudentService {
 
     Student addStudent(Student student);
