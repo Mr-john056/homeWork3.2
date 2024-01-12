@@ -1,5 +1,6 @@
 package sky.pro.homeWork32.service;
 
+
 import sky.pro.homeWork32.entities.Faculty;
 
 import java.util.HashMap;
