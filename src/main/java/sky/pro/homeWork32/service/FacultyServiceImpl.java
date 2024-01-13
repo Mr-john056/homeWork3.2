@@ -1,10 +1,11 @@
 package sky.pro.homeWork32.service;
 
-
+import org.springframework.stereotype.Service;
 import sky.pro.homeWork32.entities.Faculty;
 
 import java.util.HashMap;
 
+@Service
 public class FacultyServiceImpl {
 
     private final HashMap<Long, Faculty> faculties = new HashMap<>();

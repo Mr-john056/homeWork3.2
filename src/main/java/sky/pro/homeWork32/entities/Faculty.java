@@ -1,7 +1,6 @@
 package sky.pro.homeWork32.entities;
 
 import java.util.Objects;
-
 public class Faculty {
 
     private long id;
@@ -12,15 +11,6 @@ public class Faculty {
         this.id = id;
         this.name = name;
         this.color = color;
-    }
-
-    @Override
-    public String toString() {
-        return "Faculty{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", color='" + color + '\'' +
-                '}';
     }
 
     @Override
@@ -58,5 +48,14 @@ public class Faculty {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Faculty{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                '}';
     }
 }

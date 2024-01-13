@@ -1,9 +1,11 @@
 package sky.pro.homeWork32.service;
 
+import org.springframework.stereotype.Service;
 import sky.pro.homeWork32.entities.Student;
 
 import java.util.HashMap;
 
+@Service
 public class StudentServiceImpl implements StudentService {
 
     private final HashMap<Long, Student> students = new HashMap<>();
